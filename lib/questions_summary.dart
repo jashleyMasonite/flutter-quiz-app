@@ -18,10 +18,7 @@ class QuestionsSummary extends StatelessWidget {
               children: [
                 Container(
                   width: 50,
-                  child: Positioned(
-                    top: 0.0,
-                    left: 0.0,
-                    child: CircleAvatar(
+                  child: CircleAvatar(
                         backgroundColor: data['user_answer'] == data['correct_answer'] ? Colors.cyanAccent : Colors.purpleAccent,
                         maxRadius: 16,
                         child: Text(
@@ -32,7 +29,6 @@ class QuestionsSummary extends StatelessWidget {
                           ),
                         )
                     ),
-                  ),
                 ),
                 Expanded(
                   child: Column(

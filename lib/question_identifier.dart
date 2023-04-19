@@ -14,8 +14,8 @@ class QuestionIdentifier extends StatelessWidget {
   Widget build(context) {
     final questionNumber = questionIndex + 1;
     return Container(
-      width: 30;
-      height: 30;
+      width: 30,
+      height: 30,
       alignment: Alignment.center,
       decoration: BoxDecoration(
         color: isCorrectAnswer
